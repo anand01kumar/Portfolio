@@ -1,0 +1,514 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Libertinus+Math&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Winky+Rough:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12 p-0">
+                <nav class="navbar navbar-expand-lg  navbar-dark" style=" background: linear-gradient(90deg, #2c3e50, #8e44ad); ">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">Portfolio</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mx-auto t  mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#scrollspyHeading">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading1">About us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading2">Experience</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading3">Education</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading4">Projects</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading5">Blogs</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#scrollspyHeading6">Contact me</a>
+                                </li>
+
+
+                            </ul>
+                           
+                        </div>
+                    </div>
+                </nav>
+
+
+
+            </div>
+        </div>
+        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example  p-3 rounded-2" tabindex="0">
+
+        <div class="row pt-5">
+    <div class="col-sm-6 my-auto left">
+        <h1 class="my-auto ms-5 text-white heading" id="scrollspyHeading">Hello, I'm <span class="till">Anand Kumar</span></h1>
+        <p class="para text-light ms-5 mt-3" style="line-height: 25px;">
+            I am a passionate and dedicated Full‑Stack MERN Developer with hands‑on experience in building dynamic dashboards, modular backends, and responsive UIs. Skilled in MongoDB, Express.js, React, Node.js, along with HTML, CSS, JavaScript, Bootstrap, I specialize in creating interactive, user‑friendly web applications with clean and efficient code.  Having successfully completed my internship at Softpro India, I am now eager to apply my skills to real‑world projects and contribute to innovative development teams.
+        </p>
+        
+        <!-- Buttons -->
+        <button class="ms-5 btn btn-warning fw-bold" onclick="downloadCV()">Download CV</button>
+        
+    </div>
+
+    <div class="col-sm-6">
+        <div class="div">
+            <img src="image/anands.png" alt="Anand Kumar" >
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- section 2 -->
+        <div class="row">
+    <div class="col-sm-12 text-light text-center mt-3">
+        <h1 class="fw-bold t" id="scrollspyHeading1">About Me</h1>
+        <hr>
+    </div>
+</div>
+<div class="row" style="background: linear-gradient(90deg, #2c3e50, #8e44ad);">
+    <div class="col-sm-4 mt-4">
+        <div class="div">
+            <img src="image/anands.png" alt="Anand Kumar" >
+        </div>
+    </div>
+    <div class="col-sm-8">
+        <h4 class="fw-bold mt-4" style="color: tomato;">Who I Am</h4>
+        <p style="text-align: justify; color: white;">
+            Hello! I’m <span class="till" style="font-weight: bold; color: tomato;">Anand Kumar</span>, 
+            a passionate <strong>Full-Stack MERN Developer</strong> with a drive to build dynamic, 
+            responsive, and user-friendly web applications. Skilled in 
+            <strong>MongoDB, Express.js, React.js, Node.js</strong> along with 
+            <strong>HTML, CSS, JavaScript, and Bootstrap</strong>, I enjoy turning ideas into 
+            interactive digital experiences.
+        </p>
+        <p style="text-align: justify; color: white;">
+            Over my journey, I’ve worked on several projects that helped me sharpen my skills in 
+            designing intuitive interfaces, developing APIs, and managing databases. Here are some 
+            of my featured projects:
+        </p>
+        <ul class="text-light">
+            <li>Food Cart Application</li>
+            <li>Spotify Clone</li>
+            <li>REC Gonda Website Clone</li>
+            <li>Jio Hotstar Clone</li>
+            <li>E-Study Zone (E-Learning Plateform)</li>
+            <li>ElectroMart (E-commerce Plateform)</li>
+            <li>Dynamic Trainer, Learner & Admin Dashboards</li>
+            <li>Portfolio Website</li>
+        </ul>
+        <p style="text-align: justify; color: white;">
+            My goal is to grow as a developer and contribute to impactful projects that solve 
+            real-world problems. I believe in writing clean, maintainable code and creating 
+            applications that are both functional and visually appealing. Beyond coding, I 
+            explore UI/UX trends, practice problem-solving challenges, and stay updated with 
+            the latest web technologies.
+        </p>
+    </div>
+</div>
+<hr style="color: white;">
+
+        <!-- section 2 -->
+
+        <!-- Section 3 -->
+        <div class="row">
+    <div class="col-sm-12 mt-5">
+        <h1 class="text-center text-light fw-bold" id="scrollspyHeading2">Skills</h1>
+        <hr class="w-25 mx-auto" style="border: 2px solid tomato;">
+    </div>
+</div>
+
+<div class="row px-4">
+    <!-- Technical Skills -->
+    <div class="col-sm-6">
+        <h4 class="mt-4 text-light fw-bold">HTML</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 86%; background: linear-gradient(90deg, #ff6a00, #ee0979);">86%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">CSS</h4>
+        <div class="progress">
+            <div class="progress-bar" style="width: 85%; background: linear-gradient(90deg, #00c6ff, #0072ff);">85%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">JavaScript</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 75%; background: linear-gradient(90deg, #f7971e, #ffd200);">75%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">Bootstrap</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 85%; background: linear-gradient(90deg, #8e2de2, #4a00e0);">85%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">React.js</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 70%; background: linear-gradient(90deg, #00f260, #0575e6);">70%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">Node.js</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 70%; background: linear-gradient(90deg, #11998e, #38ef7d);">70%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">Express.js</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 68%; background: linear-gradient(90deg, #fc4a1a, #f7b733);">68%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">MongoDB</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 69%; background: linear-gradient(90deg, #56ab2f, #a8e063);">69%</div>
+        </div>
+    </div>
+
+    <!-- Soft Skills -->
+    <div class="col-sm-6">
+        <h4 class="mt-4 text-light fw-bold">Leadership</h4>
+        
+
+        <h4 class="mt-4 text-light fw-bold">Communication</h4>
+        <div class="progress">
+            <div class="progress-bar bg-gradient" style="width: 85%; background: linear-gradient(90deg, #1f4037, #99f2c8);">85%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">Problem Solving</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 80%; background: linear-gradient(90deg, #654ea3, #eaafc8);">80%</div>
+        </div>
+
+        <h4 class="mt-4 text-light fw-bold">Team Collaboration</h4>
+        <div class="progress">
+            <div class="progress-bar " style="width: 82%; background: linear-gradient(90deg, #43cea2, #185a9d);">82%</div>
+        </div>
+
+       
+
+        
+    </div>
+</div>
+
+<hr class="mt-5" style="color: white;">
+
+        
+<!-- Section3 -->
+
+
+        <!-- Section4 -->
+        <div class="row">
+    <h1 class="text-center text-light fw-bold mt-4" id="scrollspyHeading3">Education</h1>
+    <hr class="w-25 mx-auto" style="border: 2px solid tomato;">
+</div>
+
+<div class="row justify-content-center mt-4">
+    <!-- High School -->
+    <div class="col-sm-4 mb-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100 edu-card">
+            <div class="card-body text-center">
+                <h2 class="fw-bold">High School</h2>
+                <h3 class="fw-bold" style="color: rgb(194, 37, 37);">NNSS Inter College</h3>
+                <h4 class="text-light">2020-21</h4>
+                <h4 class="text-warning fw-bold">79%</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Intermediate -->
+    <div class="col-sm-4 mb-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100 edu-card">
+            <div class="card-body text-center">
+                <h2 class="fw-bold">Intermediate</h2>
+                <h3 class="fw-bold" style="color: rgb(194, 37, 37);">NNSS Inter College</h3>
+                <h4 class="text-light">2021-22</h4>
+                <h4 class="text-warning fw-bold">67%</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- Graduation -->
+    <div class="col-sm-4 mb-4">
+        <div class="card bg-dark text-light border-0 shadow-lg h-100 edu-card">
+            <div class="card-body text-center">
+                <h2 class="fw-bold">Graduation (B.Tech)</h2>
+                <h3 class="fw-bold" style="color: rgb(194, 37, 37);">SVNIET</h3>
+                <h4 class="text-light">2022-26</h4>
+                <h4 class="text-warning fw-bold">7.1 CGPA</h4>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+         <!-- Section4 -->
+
+         <!-- Section5 -->
+
+         <div class="row border mt-5">
+            <div class="col-sm-12 projects">
+                <h3 id="scrollspyHeading4">My Projects</h3>
+                <hr class="text-light ">
+                <div class="row row-cols-1 row-cols-md-4 g-4">
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="image/Screenshot 2025-08-26 163847.png" class="card-img-top" alt="..." height="150px">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Food Cart Clone</h5>
+    <p class="card-text text-light">A dynamic Food Cart web app enabling users to browse, add, and manage food items with a responsive UI.  
+
+</p>
+    <a href="https://github.com/anand01kumar" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="image/Screenshot 2025-08-26 164008.png" class="card-img-top" alt="..." height="150px">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">REC Gonda Clone</h5>
+    <p class="card-text text-light">A responsive REC Gonda Clone replicating the official college website’s design and functionality.  
+Features dynamic content sections, clean UI, and smooth navigation for an authentic user experience.
+</p>
+    <a href="https://github.com/anand01kumar" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+   <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="image/Screenshot 2025-08-26 164209.png" class="card-img-top" alt="..." height="150px">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Jio Hostar Clone</h5>
+    <p class="card-text text-light">A fully responsive JioHotstar Clone built with modern web technologies, replicating the UI and streaming experience.  
+Showcases dynamic content rendering, user authentication, and smooth media playback integration.
+</p>
+    <a href="https://github.com/anand01kumar" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+ 
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="image/WeatherApp.png" class="card-img-top" alt="..." height="150px">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Weather App</h5>
+    <p class="card-text text-light">☀️🌧️ "A simple weather app that keeps you updated with real‑time forecasts and conditions, helping you plan your day with ease."</p>
+    <a href="https://frontend-project-three-jade.vercel.app/" target="_blank" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="image/Screenshot 2026-06-12 001501.png" class="card-img-top" alt="..." height="150px">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">E Study Zone( E Learing  Platform)</h5>
+    <p class="card-text text-light">E‑Study‑Zone is a dynamic MERN‑based platform connecting learners, trainers, and admins with interactive dashboards and real‑time stats."
+
+"A collaborative space designed to simplify teaching, learning, and communication through role‑based access and responsive design.</p>
+    <a href="https://e-study-zone-seven.vercel.app/" target="_blank" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="image/Screenshot 2026-03-28 105637.png" class="card-img-top" alt="..." height="150px">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">ElectroMart( Ecommerce Plateform)</h5>
+    <p class="card-text text-light">🛒⚡"ElectroMart is a full‑stack MERN e‑commerce platform offering seamless product browsing, secure payments, and responsive UI."
+
+"A modern shopping solution built with dynamic dashboards, Razorpay integration, and optimized user experience."</p>
+    <a href="https://github.com/anand01kumar" target="_blank" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+</div>
+                <!-- <div class="row row-cols-1 row-cols-md-4 g-4 mt-4">
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Spotify</h5>
+    <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Weather App</h5>
+    <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+   <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Distinariy App</h5>
+    <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+ 
+  <div class="col">
+   <div class="card bg-dark" style="width: 18rem;">
+  <img src="..." class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger">Jio Hostar</h5>
+    <p class="card-text text-light">Some quick example text to build on the card title and make up the bulk of the card’s content.</p>
+    <a href="#" class="btn btn-primary">View Project...</a>
+  </div>
+</div>
+  </div>
+</div> -->
+            </div>
+         </div>
+         <div class="row border ">
+            <div class="col-sm-12 projects">
+                <h3 id="scrollspyHeading5">Blogs</h3>
+                <hr class="text-light ">
+   <div class="container-fluid">
+      <div class="row">
+
+        <div class="col-sm-12"> <button class="btn btn-primary  text-light fw-bold  mt-3 float-end" onclick="add()"  data-bs-toggle="modal" data-bs-target="#exampleModal">+Add New Blog
+
+        </button></div>
+      </div>
+      <div class="row" id="blogData">
+        <!-- <div class="col-sm-4" >
+          <div class="card"  style="width: 18rem;">
+  <div class="card-body">
+    <h5 class="card-title fw-bold text-danger ">Card title</h5>
+   
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="card-link btn btn-success">Edit</a>
+    <a href="#" class="card-link btn btn-danger">Delete</a>
+  </div>
+</div>
+        </div> -->
+      </div>
+    </div>
+    <!-- Button trigger modal -->
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Add New Blogs</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" onclick="clearForm()"></button>
+      </div>
+      <div class="modal-body">
+        <label for="text"> Enter Titel</label>
+        <input type="text" placeholder="Enter Titel" id="titeltext" class="form-control mt-3">
+        
+        <label for="blogtext"> Enter BlogText</label>
+        <textarea name="" id="blogtext" rows="5" class="form-control mt-3"></textarea>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" onclick="clearForm()">Close</button>
+        <button type="button" id="addb" class="btn btn-primary" onclick="addBlog()">Add Blog</button>
+        <button type="button" id="updateb" class="btn btn-primary" onclick="updateBlog()" style="display: none;">Update Blog</button>
+      </div>
+    </div>
+  </div>
+</div>
+    
+            </div>
+         </div>
+
+         <!-- Section5 -->
+
+
+         <!-- Section 6 -->
+
+         <div class="row">
+            <div class="col-sm-4">
+                
+                
+            </div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2"></div>
+            <div class="col-sm-2">
+                
+            </div>
+         </div>
+         <!-- Section 6 -->
+          <div class="row mt-5">
+    <h1 class="text-center text-light fw-bold" id="scrollspyHeading6">Contact Me</h1>
+    <hr class="w-25 mx-auto" style="border: 2px solid tomato;">
+</div>
+
+<div class="row justify-content-center mt-4">
+    <!-- Contact Info -->
+    <div class="col-sm-4 text-light">
+        <h4 class="fw-bold mb-3" style="color: tomato;">Get in Touch</h4>
+        <p><i class="bi bi-envelope-fill text-warning"></i> Email: <span class="text-info">anandkumar770602@example.com</span></p>
+        <p><i class="bi bi-telephone-fill text-success"></i> Phone: <span class="text-info">+91 7706028425</span></p>
+        <p><i class="bi bi-geo-alt-fill text-danger"></i> Location: <span class="text-info">Uttar Pradesh, India</span></p>
+        <p><i class="bi bi-linkedin text-primary"></i> LinkedIn: <a href="#" class="text-info">www.linkedin.com/in/anand-kumar-96a088412</a></p>
+        <p><i class="bi bi-github text-light"></i> GitHub: <a href="#" class="text-info">https://github.com/anand01kumar</a></p>
+    </div>
+
+    <!-- Contact Form -->
+    <div class="col-sm-6">
+        <form class="p-4 rounded shadow-lg" style="background: linear-gradient(135deg, #2c3e50, #8e44ad);" action="mailto:anandkumar770602@example.com" method="post" enctype="text/plain">
+            <div class="mb-3">
+                <label for="name" class="form-label text-light fw-bold">Your Name</label>
+                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+                <label for="email" class="form-label text-light fw-bold">Your Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            </div>
+            <div class="mb-3">
+                <label for="message" class="form-label text-light fw-bold">Message</label>
+                <textarea class="form-control" id="message" rows="4" placeholder="Write your message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-warning fw-bold w-100">Send Message</button>
+        </form>
+    </div>
+</div>
+
+<!-- Custom CSS -->
+
+
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+        <script src="js/script.js"></script>
+</body

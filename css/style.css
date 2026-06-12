@@ -1,0 +1,139 @@
+body{
+    background: linear-gradient(90deg, #2c3e50, #8e44ad);
+    font-family: "Poppins", sans-serif;
+}
+.navbar {
+    background: linear-gradient(90deg, #2c3e50, #8e44ad);
+    /* padding: 1.2rem 2rem; */
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.4);
+     position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff ;
+    transition: color 0.3s ease;
+}
+
+.navbar-brand:hover {
+    color: #e74c3c ;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #ffffff ;
+    margin: 0 1rem;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #e74c3c ;
+}
+
+.navbar form button {
+    background-color: #e74c3c;
+    color: #ffffff;
+    border: none;
+    border-radius: 25px;
+    /* padding: 0.5rem 1.5rem; */
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.navbar form button:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+.div{
+    height: 380px;
+    width: 300px;
+    border: 1px solid white;
+    margin: 70px auto;
+    box-shadow: 1px 1px 20px 5px gray;
+    border-radius: 20px;
+    
+}
+
+
+.div img{
+    height: 410px;
+    width: 325px;
+    margin-top: -32px;
+    margin-left: -37px;
+    position:absolute;
+    
+
+    
+}
+.div:hover{
+    transform: scale(1.1);
+    transition: 0.6s ease-out;
+}
+.heading{
+    font-size: 50px;
+    font-weight: 900;
+    
+}
+.till{
+    color: rgb(141, 19, 40);
+
+}
+.para{
+    font-size: 1.0em;
+    text-align: justify;
+}
+.left button{
+    height: 50px;
+    width: 170px;
+    border: none;
+    border-radius: 50px;
+    background-color: brown;
+    color: white;
+font-weight: bold;
+}
+.left button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.8s ease;
+
+}
+.co{
+color:brown;
+}
+
+.projects  h3{
+    color: white;
+    margin-top: 40px;
+    text-align: center;
+  font-weight: bold;
+  
+}
+.edu-card {
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    border-radius: 12px;
+    background: linear-gradient(135deg, #2c3e50, #8e44ad);
+}
+.edu-card:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.6);
+}
+form .form-control {
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+form .btn {
+    transition: all 0.3s ease;
+}
+form .btn:hover {
+    background-color: tomato;
+    color: white;
+    transform: scale(1.05);
+}

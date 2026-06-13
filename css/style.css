@@ -292,3 +292,107 @@
             .profile-img-container { width: 250px; height: 250px; margin-bottom: 2rem; }
             .section-title h2 { font-size: 2rem; }
         }
+        /* --- TIMELINE CSS FOR EXPERIENCE SECTION --- */
+.timeline {
+    position: relative;
+    padding: 20px 0;
+}
+
+/* The vertical line */
+.timeline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    width: 2px;
+    background: var(--gradient-main);
+    transform: translateX(-50%);
+}
+
+.timeline-item {
+    padding: 10px 40px;
+    position: relative;
+    background-color: inherit;
+    width: 50%;
+}
+
+/* The circle/dot on the line */
+.timeline-item::after {
+    content: '';
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: -8px;
+    background-color: var(--bg-dark);
+    border: 3px solid var(--accent-secondary);
+    top: 25px;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0 0 10px var(--accent-secondary);
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    left: 50%;
+}
+
+.right::after {
+    left: -8px;
+}
+
+/* The content card */
+.timeline-content {
+    padding: 20px 30px;
+    background: var(--glass-bg);
+    border: var(--glass-border);
+    border-radius: 16px;
+    position: relative;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+    border-color: var(--accent-primary);
+}
+
+/* Date Badge */
+.date-badge {
+    display: inline-block;
+    padding: 5px 12px;
+    background: rgba(139, 92, 246, 0.2);
+    color: #d8b4fe;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+/* Mobile Responsiveness */
+@media screen and (max-width: 768px) {
+    .timeline::before {
+        left: 31px;
+    }
+    
+    .timeline-item {
+        width: 100%;
+        padding-left: 70px;
+        padding-right: 25px;
+    }
+    
+    .timeline-item::after {
+        left: 21px; /* Adjust dot position */
+    }
+    
+    .left::after, .right::after {
+        left: 21px;
+    }
+    
+    .right {
+        left: 0%;
+    }
+}
